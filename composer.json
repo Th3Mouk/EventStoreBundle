@@ -1,0 +1,22 @@
+{
+    "name": "th3mouk/event-store-bundle",
+    "description": "HTTP Client to communicate with EventStore shipping Guzzle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jérémy Marodon",
+            "email": "marodon.jeremy@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/config": "^4.1",
+        "symfony/dependency-injection": "^4.1",
+        "symfony/http-kernel": "^4.1",
+        "symfony/event-dispatcher": "^4.1",
+        "th3mouk/event-store-client": "dev-master"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^2.13"
+    }
+}
