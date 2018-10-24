@@ -39,4 +39,9 @@ class EventStoreExtension extends ConfigurableExtension
             ->addArgument($client)
             ->addTag('kernel.event_subscriber');
     }
+
+    public function getAlias()
+    {
+        return 'eventstore';
+    }
 }

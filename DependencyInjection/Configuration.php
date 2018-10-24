@@ -21,7 +21,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('event_store');
+        $rootNode = $treeBuilder->root('eventstore');
 
         $rootNode
             ->children()
