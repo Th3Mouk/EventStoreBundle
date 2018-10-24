@@ -1,5 +1,5 @@
 {
-    "name": "th3mouk/event-store-bundle",
+    "name": "th3mouk/eventstore-bundle",
     "description": "HTTP Client to communicate with EventStore shipping Guzzle",
     "type": "symfony-bundle",
     "license": "MIT",
