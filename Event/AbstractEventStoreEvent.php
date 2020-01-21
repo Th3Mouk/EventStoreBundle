@@ -11,7 +11,7 @@ namespace Th3Mouk\EventStoreBundle\Event;
 use Th3Mouk\EventStoreClient\Event;
 use Th3Mouk\EventStoreClient\EventCollection;
 
-abstract class AbstractEventStoreEvent extends \Symfony\Component\EventDispatcher\Event
+abstract class AbstractEventStoreEvent extends \Symfony\Contracts\EventDispatcher\Event
 {
     protected $stream;
 
