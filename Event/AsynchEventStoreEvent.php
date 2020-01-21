@@ -10,5 +10,5 @@ namespace Th3Mouk\EventStoreBundle\Event;
 
 class AsynchEventStoreEvent extends AbstractEventStoreEvent
 {
-    const NAME = 'event_store.asynch';
+    const NAME = 'eventstore.asynch';
 }

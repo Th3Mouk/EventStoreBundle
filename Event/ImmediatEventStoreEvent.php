@@ -10,5 +10,5 @@ namespace Th3Mouk\EventStoreBundle\Event;
 
 class ImmediatEventStoreEvent extends AbstractEventStoreEvent
 {
-    const NAME = 'event_store.send';
+    const NAME = 'eventstore.send';
 }
